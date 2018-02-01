@@ -1,12 +1,12 @@
-﻿Log file open, 02/01/18 10:07:18
+﻿Log file open, 02/01/18 10:37:56
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: FPS_NetflixBoredom
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1142707577) SRandInit(-1142707577).
+LogInit: Display: RandInit(-423307060) SRandInit(-423307060).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.245298
+LogStats: Stats thread started at 0.263157
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -103,747 +103,459 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.01-16.07.20:013][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.01-16.07.20:013][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.01-16.07.20:034][  0]LogInit: Computer: MIKE_ZBOOK
-[2018.02.01-16.07.20:034][  0]LogInit: User: mingargiola21
-[2018.02.01-16.07.20:034][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.01-16.07.20:034][  0]LogInit: High frequency timer resolution =2.728064 MHz
-[2018.02.01-16.07.20:035][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.02.01-16.07.20:035][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.01-16.07.20:035][  0]LogMemory: Process Physical Memory: 278.69 MB used, 278.69 MB peak
-[2018.02.01-16.07.20:035][  0]LogMemory: Process Virtual Memory: 274.36 MB used, 274.36 MB peak
-[2018.02.01-16.07.20:035][  0]LogMemory: Physical Memory: 5969.75 MB used,  10329.36 MB free, 16299.11 MB total
-[2018.02.01-16.07.20:035][  0]LogMemory: Virtual Memory: 707.20 MB used,  10329.36 MB free, 134217728.00 MB total
-[2018.02.01-16.07.20:596][  0]LogInit: Using OS detected language (en-US).
-[2018.02.01-16.07.20:596][  0]LogInit: Using OS detected locale (en-US).
-[2018.02.01-16.07.20:654][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.01-16.07.23:853][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.01-16.07.23:931][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K3100M' (Feature Level 11_0)
-[2018.02.01-16.07.23:931][  0]LogD3D11RHI:       4063/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.01-16.07.23:934][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.01-16.07.23:934][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.01-16.07.23:934][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.01-16.07.23:948][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.01-16.07.23:948][  0]LogD3D11RHI:     GPU DeviceId: 0x11b6 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.01-16.07.23:948][  0]LogWindows: EnumDisplayDevices:
-[2018.02.01-16.07.23:948][  0]LogWindows:    0. 'NVIDIA Quadro K3100M' (P:1 D:1)
-[2018.02.01-16.07.23:949][  0]LogWindows:    1. 'NVIDIA Quadro K3100M' (P:0 D:0)
-[2018.02.01-16.07.23:949][  0]LogWindows:    2. 'NVIDIA Quadro K3100M' (P:0 D:0)
-[2018.02.01-16.07.23:949][  0]LogWindows:    3. 'NVIDIA Quadro K3100M' (P:0 D:0)
-[2018.02.01-16.07.23:949][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.01-16.07.23:949][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K3100M
-[2018.02.01-16.07.23:949][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.01-16.07.23:949][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.01-16.07.23:949][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.02.01-16.07.23:996][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.01-16.07.24:014][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.01-16.07.24:059][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Intermediate/Shaders/WorkingDirectory/18424/).
-[2018.02.01-16.07.24:059][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/m.ingargiola21/AppData/Local/Temp/UnrealShaderWorkingDir/13372BE4404075EDEBBDDFB38E1B3DC1/'.
-[2018.02.01-16.07.24:059][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.01-16.07.26:541][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.01-16.07.26:670][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.01-16.07.26:788][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.01-16.07.26:903][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.01-16.07.27:045][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.01-16.07.27:186][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.01-16.07.27:316][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.01-16.07.27:441][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.01-16.07.27:557][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.01-16.07.27:682][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.01-16.07.27:804][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.01-16.07.27:921][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.01-16.07.28:051][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.01-16.07.28:168][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.01-16.07.28:284][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.01-16.07.28:537][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.01-16.07.28:537][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.01-16.07.28:648][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.01-16.07.28:865][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.01-16.07.28:934][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.01-16.07.29:054][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.01-16.07.29:180][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.01-16.07.29:308][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.01-16.07.29:426][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.01-16.07.29:426][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.01-16.07.30:808][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.01-16.07.30:955][  0]LogDerivedDataCache: Loaded boot cache 0.15s 93MB C:/Users/m.ingargiola21/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.02.01-16.07.30:955][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/m.ingargiola21/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.02.01-16.07.30:955][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.01-16.07.30:955][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.01-16.07.30:955][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.01-16.07.30:955][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.01-16.07.30:976][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.01-16.07.30:989][  0]LogDerivedDataCache: Using Local data cache path C:/Users/m.ingargiola21/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.01-16.07.31:001][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.01-16.07.31:001][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.01-16.07.31:017][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.01-16.07.31:017][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.01-16.07.31:544][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
-[2018.02.01-16.07.31:775][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.01-16.07.32:322][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.02.01-16.07.33:219][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.01-16.07.33:363][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.01-16.07.33:363][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.01-16.07.33:363][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.01-16.07.33:363][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.01-16.07.33:363][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.01-16.07.34:250][  0]LogNetVersion: FPS_NetflixBoredom , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2483267665)
-[2018.02.01-16.07.34:795][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.070921 seconds
-[2018.02.01-16.07.34:812][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.02.01-16.07.34:812][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2018.02.01-16.07.34:812][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.01-16.07.34:994][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.01-16.07.42:623][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.01-16.07.42:724][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.01-16.07.44:283][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.01-16.07.45:222][  0]SourceControl: Source control is disabled
-[2018.02.01-16.07.45:222][  0]SourceControl: Source control is disabled
-[2018.02.01-16.07.45:348][  0]SourceControl: Source control is disabled
-[2018.02.01-16.07.45:478][  0]SourceControl: Source control is disabled
-[2018.02.01-16.07.47:610][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.01-16.07.48:232][  0]LogOcInput: OculusInput pre-init called
-[2018.02.01-16.07.48:855][  0]LogEngine: Initializing Engine...
-[2018.02.01-16.07.48:857][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.01-16.07.49:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.01-16.07.49:136][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.01-16.07.49:476][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.01-16.07.49:491][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.01-16.07.49:732][  0]LogInit: FAudioDevice initialized.
-[2018.02.01-16.07.50:019][  0]LogDerivedDataCache: Saved boot cache 0.29s 93MB C:/Users/m.ingargiola21/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.02.01-16.07.50:028][  0]LogInit: Texture streaming: Enabled
-[2018.02.01-16.07.50:327][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.01-16.07.50:952][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.01-16.07.51:050][  0]LogInit: Transaction tracking system initialized
-[2018.02.01-16.07.51:945][  0]BlueprintLog: New page: Editor Load
-[2018.02.01-16.07.54:733][  0]LocalizationService: Localization service is disabled
-[2018.02.01-16.07.56:712][  0]LogConsoleResponse: Display: 
-[2018.02.01-16.07.57:102][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.01-16.07.57:102][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.01-16.07.57:102][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.01-16.07.57:591][  0]LogFileCache: Scanning file cache for directory 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/' took 0.02s
-[2018.02.01-16.08.00:000][  0]SourceControl: Source control is disabled
-[2018.02.01-16.08.00:027][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.17/FeaturePacks/StarterContent.upack)
-[2018.02.01-16.08.00:121][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.02.01-16.08.00:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.02.01-16.08.00:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.02.01-16.08.00:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.02.01-16.08.00:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.02.01-16.08.00:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.02.01-16.08.00:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.02.01-16.08.00:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.02.01-16.08.00:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.02.01-16.08.00:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.02.01-16.08.00:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.02.01-16.08.00:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.02.01-16.08.00:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.02.01-16.08.00:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.02.01-16.08.00:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.02.01-16.08.00:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.02.01-16.08.00:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.02.01-16.08.00:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.02.01-16.08.00:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Fire01.uasset"
-[2018.02.01-16.08.00:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.02.01-16.08.00:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.02.01-16.08.00:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.02.01-16.08.00:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Light01.uasset"
-[2018.02.01-16.08.00:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.02.01-16.08.00:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Light02.uasset"
-[2018.02.01-16.08.00:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.02.01-16.08.00:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.02.01-16.08.00:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.02.01-16.08.00:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.02.01-16.08.00:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.02.01-16.08.00:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.02.01-16.08.00:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.02.01-16.08.00:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.02.01-16.08.00:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.02.01-16.08.00:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Steam01.uasset"
-[2018.02.01-16.08.00:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.02.01-16.08.00:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.02.01-16.08.00:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.02.01-16.08.00:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.02.01-16.08.00:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.02.01-16.08.00:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.02.01-16.08.00:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.02.01-16.08.00:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.02.01-16.08.00:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.02.01-16.08.00:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.02.01-16.08.00:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.02.01-16.08.00:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.02.01-16.08.00:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.02.01-16.08.00:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.02.01-16.08.00:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.02.01-16.08.00:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.02.01-16.08.00:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.02.01-16.08.01:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.02.01-16.08.01:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.02.01-16.08.01:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.02.01-16.08.01:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.02.01-16.08.01:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.02.01-16.08.01:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Maps/StarterMap.umap"
-[2018.02.01-16.08.01:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.02.01-16.08.01:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.02.01-16.08.01:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.02.01-16.08.01:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.02.01-16.08.01:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.02.01-16.08.01:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.02.01-16.08.01:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.02.01-16.08.01:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.02.01-16.08.01:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.02.01-16.08.01:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.02.01-16.08.01:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.02.01-16.08.01:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.02.01-16.08.01:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.02.01-16.08.01:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.02.01-16.08.01:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.02.01-16.08.01:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.02.01-16.08.01:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.02.01-16.08.01:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.02.01-16.08.01:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.02.01-16.08.01:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.02.01-16.08.01:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.02.01-16.08.01:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.02.01-16.08.01:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.02.01-16.08.01:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.02.01-16.08.01:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.02.01-16.08.01:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.02.01-16.08.01:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.02.01-16.08.01:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.02.01-16.08.01:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.02.01-16.08.01:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.02.01-16.08.01:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.02.01-16.08.01:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.02.01-16.08.01:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.02.01-16.08.01:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.02.01-16.08.01:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.02.01-16.08.01:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.02.01-16.08.01:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.02.01-16.08.01:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.02.01-16.08.01:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.02.01-16.08.01:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.02.01-16.08.01:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.02.01-16.08.01:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.02.01-16.08.01:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.02.01-16.08.01:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.02.01-16.08.01:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.02.01-16.08.01:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.02.01-16.08.01:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.02.01-16.08.01:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.02.01-16.08.01:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.02.01-16.08.01:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.02.01-16.08.01:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.02.01-16.08.01:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.02.01-16.08.01:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.02.01-16.08.01:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.02.01-16.08.02:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.02.01-16.08.02:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.02.01-16.08.02:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.02.01-16.08.02:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.02.01-16.08.02:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.02.01-16.08.02:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.02.01-16.08.02:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.02.01-16.08.02:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.02.01-16.08.02:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.02.01-16.08.02:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.02.01-16.08.02:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.02.01-16.08.02:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Door.uasset"
-[2018.02.01-16.08.02:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.02.01-16.08.02:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.02.01-16.08.02:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.02.01-16.08.02:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.02.01-16.08.02:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.02.01-16.08.02:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.02.01-16.08.02:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.02.01-16.08.02:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.02.01-16.08.02:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.02.01-16.08.02:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.02.01-16.08.02:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.02.01-16.08.02:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.02.01-16.08.02:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.02.01-16.08.02:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.02.01-16.08.02:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.02.01-16.08.02:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.02.01-16.08.02:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.02.01-16.08.02:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.02.01-16.08.02:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.02.01-16.08.02:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.02.01-16.08.02:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.02.01-16.08.02:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.02.01-16.08.02:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.02.01-16.08.02:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.02.01-16.08.02:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.02.01-16.08.02:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.02.01-16.08.02:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.02.01-16.08.02:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.02.01-16.08.02:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.02.01-16.08.02:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.02.01-16.08.02:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.02.01-16.08.02:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.02.01-16.08.02:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.02.01-16.08.02:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.02.01-16.08.02:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.02.01-16.08.02:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.02.01-16.08.02:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.02.01-16.08.02:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.02.01-16.08.02:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.02.01-16.08.02:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.02.01-16.08.02:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.02.01-16.08.02:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.02.01-16.08.02:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.02.01-16.08.02:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.02.01-16.08.02:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.02.01-16.08.03:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.02.01-16.08.03:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.02.01-16.08.03:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.02.01-16.08.03:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.02.01-16.08.03:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.02.01-16.08.03:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.02.01-16.08.03:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.02.01-16.08.03:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.02.01-16.08.03:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.02.01-16.08.03:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.02.01-16.08.03:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.02.01-16.08.03:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.02.01-16.08.03:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.02.01-16.08.03:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.02.01-16.08.03:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.02.01-16.08.03:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.02.01-16.08.03:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.02.01-16.08.03:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.02.01-16.08.03:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.02.01-16.08.03:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.02.01-16.08.03:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.02.01-16.08.03:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.02.01-16.08.03:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.02.01-16.08.03:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.02.01-16.08.03:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.02.01-16.08.03:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.02.01-16.08.03:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.02.01-16.08.03:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.02.01-16.08.03:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.02.01-16.08.03:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.02.01-16.08.03:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.02.01-16.08.04:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.02.01-16.08.04:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.02.01-16.08.04:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.02.01-16.08.04:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.02.01-16.08.04:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.02.01-16.08.04:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.02.01-16.08.04:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.02.01-16.08.04:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.02.01-16.08.04:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.02.01-16.08.04:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.02.01-16.08.04:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.02.01-16.08.04:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.02.01-16.08.04:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.02.01-16.08.04:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.02.01-16.08.04:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.02.01-16.08.04:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.02.01-16.08.04:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.02.01-16.08.04:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.02.01-16.08.04:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.02.01-16.08.04:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.02.01-16.08.05:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.02.01-16.08.05:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.02.01-16.08.05:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.02.01-16.08.05:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.02.01-16.08.05:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.02.01-16.08.05:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.02.01-16.08.05:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.02.01-16.08.05:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.02.01-16.08.05:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.02.01-16.08.05:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.02.01-16.08.05:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.02.01-16.08.06:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.02.01-16.08.06:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.02.01-16.08.06:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.02.01-16.08.06:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.02.01-16.08.06:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.02.01-16.08.06:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.02.01-16.08.06:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.02.01-16.08.06:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.02.01-16.08.06:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.02.01-16.08.06:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.02.01-16.08.06:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.02.01-16.08.06:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.02.01-16.08.06:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.02.01-16.08.06:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.02.01-16.08.06:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.02.01-16.08.06:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.02.01-16.08.07:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.02.01-16.08.07:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.02.01-16.08.07:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.02.01-16.08.07:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.02.01-16.08.07:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.02.01-16.08.07:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.02.01-16.08.07:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.02.01-16.08.07:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.02.01-16.08.07:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.02.01-16.08.07:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.02.01-16.08.07:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.02.01-16.08.07:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.02.01-16.08.07:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.02.01-16.08.07:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.02.01-16.08.07:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.02.01-16.08.07:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.02.01-16.08.07:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.02.01-16.08.07:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.02.01-16.08.07:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.02.01-16.08.07:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.02.01-16.08.07:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.02.01-16.08.07:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.02.01-16.08.07:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.02.01-16.08.07:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.02.01-16.08.07:930][  0]LogStaticMesh: Building static mesh Floor_400x400...
-[2018.02.01-16.08.07:932][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2018.02.01-16.08.08:060][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.02.01-16.08.09:064][  0]LogSavePackage: Save=18.08ms
-[2018.02.01-16.08.09:064][  0]LogSavePackage: Moving '../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Saved/Floor_400x400232A2B9640132561A25B20B34ABD06AE.tmp' to '../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.02.01-16.08.09:072][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.02.01-16.08.09:073][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.02.01-16.08.09:081][  0]Cmd: MAP LOAD FILE="../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.01-16.08.09:082][  0]LightingResults: New page: Lighting Build
-[2018.02.01-16.08.09:204][  0]MapCheck: New page: Map Check
-[2018.02.01-16.08.09:204][  0]LightingResults: New page: Lighting Build
-[2018.02.01-16.08.10:161][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
-[2018.02.01-16.08.13:132][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
-[2018.02.01-16.08.13:133][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
-[2018.02.01-16.08.13:133][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
-[2018.02.01-16.08.13:133][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
-[2018.02.01-16.08.13:133][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
-[2018.02.01-16.08.13:133][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
-[2018.02.01-16.08.13:133][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
-[2018.02.01-16.08.14:184][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
-[2018.02.01-16.08.14:185][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
-[2018.02.01-16.08.14:185][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
-[2018.02.01-16.08.14:185][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
-[2018.02.01-16.08.14:185][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
-[2018.02.01-16.08.14:185][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
-[2018.02.01-16.08.14:428][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.02.01-16.08.14:470][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.01-16.08.14:499][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.01-16.08.14:618][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.575ms to complete.
-[2018.02.01-16.08.14:618][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.536
-[2018.02.01-16.08.15:674][  0]LogCollectionManager: Loaded 0 collections in 0.003461 seconds
-[2018.02.01-16.08.15:853][  0]LogFileCache: Scanning file cache for directory 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Saved/Collections/' took 0.01s
-[2018.02.01-16.08.15:854][  0]LogFileCache: Scanning file cache for directory 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/Developers/mingargiola21/Collections/' took 0.01s
-[2018.02.01-16.08.15:854][  0]LogFileCache: Scanning file cache for directory 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/Collections/' took 0.01s
-[2018.02.01-16.08.15:854][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.02.01-16.08.15:865][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2386 classes and 500 folders.
-[2018.02.01-16.08.16:039][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0028 seconds. Added 0 classes and 0 folders.
-[2018.02.01-16.08.16:117][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.02.01-16.08.16:843][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.02.01-16.08.17:028][  0]LogSlate: Took 0.012761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.01-16.08.17:037][  0]LogSlate: Took 0.005369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.01-16.08.17:051][  0]LogSlate: Took 0.006727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.01-16.08.17:151][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.02.01-16.08.17:279][  0]LogSlate: Took 0.000491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.01-16.08.17:481][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.02.01-16.08.17:481][  0]LogLoad: (Engine Initialization) Total time: 61.48 seconds
-[2018.02.01-16.08.17:481][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.01-16.08.17:481][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.01-16.08.17:481][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.01-16.08.18:306][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.01-16.08.18:376][  1]LogAssetRegistry: Asset discovery search completed in 46.8539 seconds
-[2018.02.01-16.08.18:378][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.02.01-16.08.18:378][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
-[2018.02.01-16.08.27:875][559]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.01-16.08.28:054][560]Cmd: QUIT_EDITOR
-[2018.02.01-16.08.28:103][560]LogExit: Preparing to exit.
-[2018.02.01-16.08.29:084][560]LogDirectoryWatcher: A directory notification for 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/' was aborted.
-[2018.02.01-16.08.29:157][560]LogExit: Editor shut down
-[2018.02.01-16.08.29:160][560]LogExit: Transaction tracking system shut down
-[2018.02.01-16.08.29:303][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.02.01-16.08.29:303][560]LogDirectoryWatcher: A directory notification for '../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/' was aborted.
-[2018.02.01-16.08.29:303][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.02.01-16.08.29:303][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.02.01-16.08.29:304][560]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.02.01-16.08.29:374][560]LogExit: Object subsystem successfully closed.
-[2018.02.01-16.08.29:414][560]LogD3D11RHI: Shutdown
-[2018.02.01-16.08.29:415][560]LogD3D11RHI: CleanupD3DDevice
-[2018.02.01-16.08.29:637][560]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.02.01-16.08.29:840][560]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2018.02.01-16.08.29:840][560]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2018.02.01-16.08.29:840][560]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2018.02.01-16.08.29:840][560]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2018.02.01-16.08.29:841][560]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2018.02.01-16.08.29:841][560]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2018.02.01-16.08.29:841][560]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2018.02.01-16.08.29:841][560]LogDirectoryWatcher: A directory notification for 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/Collections/' was aborted.
-[2018.02.01-16.08.29:842][560]LogDirectoryWatcher: A directory notification for 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/Developers/mingargiola21/Collections/' was aborted.
-[2018.02.01-16.08.29:842][560]LogDirectoryWatcher: A directory notification for 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Saved/Collections/' was aborted.
-[2018.02.01-16.08.29:842][560]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2018.02.01-16.08.29:842][560]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2018.02.01-16.08.29:842][560]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2018.02.01-16.08.29:843][560]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module Media (477)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2018.02.01-16.08.29:844][560]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2018.02.01-16.08.29:845][560]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2018.02.01-16.08.29:845][560]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2018.02.01-16.08.29:845][560]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2018.02.01-16.08.29:845][560]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2018.02.01-16.08.29:845][560]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2018.02.01-16.08.29:845][560]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2018.02.01-16.08.30:766][560]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2018.02.01-16.08.30:767][560]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2018.02.01-16.08.30:833][560]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2018.02.01-16.08.30:834][560]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2018.02.01-16.08.30:852][560]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2018.02.01-16.08.30:853][560]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2018.02.01-16.08.30:854][560]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2018.02.01-16.08.30:854][560]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2018.02.01-16.08.30:854][560]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2018.02.01-16.08.30:855][560]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2018.02.01-16.08.30:855][560]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2018.02.01-16.08.30:855][560]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2018.02.01-16.08.30:855][560]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2018.02.01-16.08.30:855][560]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2018.02.01-16.08.30:855][560]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2018.02.01-16.08.30:855][560]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2018.02.01-16.08.30:855][560]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2018.02.01-16.08.30:956][560]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2018.02.01-16.08.31:057][560]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2018.02.01-16.08.31:057][560]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2018.02.01-16.08.31:057][560]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2018.02.01-16.08.31:057][560]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2018.02.01-16.08.31:057][560]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2018.02.01-16.08.31:057][560]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2018.02.01-16.08.31:058][560]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2018.02.01-16.08.31:058][560]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2018.02.01-16.08.31:058][560]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2018.02.01-16.08.31:058][560]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2018.02.01-16.08.31:060][560]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module Core (168)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2018.02.01-16.08.31:063][560]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2018.02.01-16.08.31:064][560]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.02.01-16.08.31:065][560]LogDerivedDataCache: Shutdown
-[2018.02.01-16.08.31:065][560]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.02.01-16.08.31:065][560]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.02.01-16.08.31:065][560]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.02.01-16.08.31:065][560]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.02.01-16.08.31:065][560]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.02.01-16.08.31:065][560]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.02.01-16.08.31:066][560]LogOnline: Display: Unloading online subsystem: NULL
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.02.01-16.08.31:066][560]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.02.01-16.08.31:066][560]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.02.01-16.08.31:067][560]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD75A9099-4BEE-F54D-7F42-36B319B918C8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=84dfc17b4e9f31e909ddc1b318eebdea%7Cc3fdeb3d8bcd4097a4768718e05c9cf8%7C53216c03-6ce2-4aa7-831b-9b13ed8ec1ec&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.02.01-16.08.31:100][560]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.02.01-16.08.31:101][560]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.02.01-16.08.31:101][560]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.02.01-16.08.31:101][560]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.02.01-16.08.31:101][560]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.02.01-16.08.31:102][560]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.02.01-16.08.31:106][560]LogExit: Exiting.
-[2018.02.01-16.08.31:116][560]Log file closed, 02/01/18 10:08:31
+[2018.02.01-16.37.57:279][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.01-16.37.57:279][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.01-16.37.57:314][  0]LogInit: Computer: MIKE_ZBOOK
+[2018.02.01-16.37.57:314][  0]LogInit: User: mingargiola21
+[2018.02.01-16.37.57:314][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.01-16.37.57:314][  0]LogInit: High frequency timer resolution =2.728064 MHz
+[2018.02.01-16.37.57:314][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.01-16.37.57:314][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.01-16.37.57:314][  0]LogMemory: Process Physical Memory: 281.54 MB used, 281.54 MB peak
+[2018.02.01-16.37.57:314][  0]LogMemory: Process Virtual Memory: 282.45 MB used, 282.45 MB peak
+[2018.02.01-16.37.57:314][  0]LogMemory: Physical Memory: 6119.99 MB used,  10179.12 MB free, 16299.11 MB total
+[2018.02.01-16.37.57:314][  0]LogMemory: Virtual Memory: 715.73 MB used,  10179.12 MB free, 134217728.00 MB total
+[2018.02.01-16.37.57:724][  0]LogInit: Using OS detected language (en-US).
+[2018.02.01-16.37.57:724][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.01-16.37.57:728][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.01-16.37.58:637][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.01-16.37.58:751][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K3100M' (Feature Level 11_0)
+[2018.02.01-16.37.58:751][  0]LogD3D11RHI:       4063/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.01-16.37.58:754][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.01-16.37.58:754][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.01-16.37.58:754][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.01-16.37.58:775][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.01-16.37.58:775][  0]LogD3D11RHI:     GPU DeviceId: 0x11b6 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.01-16.37.58:775][  0]LogWindows: EnumDisplayDevices:
+[2018.02.01-16.37.58:775][  0]LogWindows:    0. 'NVIDIA Quadro K3100M' (P:1 D:1)
+[2018.02.01-16.37.58:775][  0]LogWindows:    1. 'NVIDIA Quadro K3100M' (P:0 D:0)
+[2018.02.01-16.37.58:776][  0]LogWindows:    2. 'NVIDIA Quadro K3100M' (P:0 D:0)
+[2018.02.01-16.37.58:776][  0]LogWindows:    3. 'NVIDIA Quadro K3100M' (P:0 D:0)
+[2018.02.01-16.37.58:776][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.01-16.37.58:776][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K3100M
+[2018.02.01-16.37.58:776][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.01-16.37.58:776][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.01-16.37.58:776][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.01-16.37.58:824][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.01-16.37.58:841][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.01-16.37.58:887][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Intermediate/Shaders/WorkingDirectory/12064/).
+[2018.02.01-16.37.58:888][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/m.ingargiola21/AppData/Local/Temp/UnrealShaderWorkingDir/31E995784CC5DBC0308A01A11DE29BC9/'.
+[2018.02.01-16.37.58:888][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.01-16.38.00:400][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.01-16.38.00:538][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.01-16.38.00:697][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.01-16.38.00:819][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.01-16.38.00:933][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.01-16.38.01:048][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.01-16.38.01:219][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.01-16.38.01:334][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.01-16.38.01:442][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.01-16.38.01:553][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.01-16.38.01:664][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.01-16.38.01:774][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.01-16.38.01:920][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.01-16.38.02:033][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.01-16.38.02:159][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.01-16.38.02:428][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.01-16.38.02:428][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.01-16.38.02:566][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.01-16.38.02:754][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.01-16.38.02:815][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.01-16.38.02:943][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.01-16.38.03:105][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.01-16.38.03:241][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.01-16.38.03:385][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.01-16.38.03:385][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.01-16.38.04:686][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.01-16.38.04:884][  0]LogDerivedDataCache: Loaded boot cache 0.20s 93MB C:/Users/m.ingargiola21/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.01-16.38.04:884][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/m.ingargiola21/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.02.01-16.38.04:884][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.01-16.38.04:884][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.01-16.38.04:884][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.01-16.38.04:884][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.01-16.38.04:901][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.01-16.38.04:914][  0]LogDerivedDataCache: Using Local data cache path C:/Users/m.ingargiola21/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.01-16.38.04:925][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.01-16.38.04:926][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.01-16.38.04:926][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.01-16.38.04:926][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.01-16.38.05:316][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
+[2018.02.01-16.38.05:513][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.01-16.38.05:742][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.01-16.38.06:382][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.01-16.38.06:487][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.01-16.38.06:487][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.01-16.38.06:487][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.01-16.38.06:487][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.01-16.38.06:487][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.01-16.38.07:011][  0]LogNetVersion: FPS_NetflixBoredom , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2483267665)
+[2018.02.01-16.38.07:400][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.066820 seconds
+[2018.02.01-16.38.07:407][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.02.01-16.38.07:407][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.02.01-16.38.07:407][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.01-16.38.07:566][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.01-16.38.13:101][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.01-16.38.13:226][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.01-16.38.14:833][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.01-16.38.15:890][  0]SourceControl: Source control is disabled
+[2018.02.01-16.38.15:890][  0]SourceControl: Source control is disabled
+[2018.02.01-16.38.16:010][  0]SourceControl: Source control is disabled
+[2018.02.01-16.38.16:144][  0]SourceControl: Source control is disabled
+[2018.02.01-16.38.18:097][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.01-16.38.18:778][  0]LogOcInput: OculusInput pre-init called
+[2018.02.01-16.38.19:512][  0]LogEngine: Initializing Engine...
+[2018.02.01-16.38.19:514][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.01-16.38.19:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.01-16.38.19:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.01-16.38.20:077][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.01-16.38.20:090][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.01-16.38.20:584][  0]LogInit: FAudioDevice initialized.
+[2018.02.01-16.38.21:001][  0]LogDerivedDataCache: Saved boot cache 0.42s 93MB C:/Users/m.ingargiola21/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.01-16.38.21:070][  0]LogInit: Texture streaming: Enabled
+[2018.02.01-16.38.21:350][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.01-16.38.21:992][  0]LogInit: Transaction tracking system initialized
+[2018.02.01-16.38.23:057][  0]BlueprintLog: New page: Editor Load
+[2018.02.01-16.38.26:549][  0]LocalizationService: Localization service is disabled
+[2018.02.01-16.38.28:695][  0]LogConsoleResponse: Display: 
+[2018.02.01-16.38.28:985][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.01-16.38.28:986][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.01-16.38.28:986][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.01-16.38.29:126][  0]LogFileCache: Scanning file cache for directory 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/' took 0.02s
+[2018.02.01-16.38.32:288][  0]SourceControl: Source control is disabled
+[2018.02.01-16.38.32:288][  0]Cmd: MAP LOAD FILE="../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.01-16.38.32:289][  0]LightingResults: New page: Lighting Build
+[2018.02.01-16.38.32:393][  0]MapCheck: New page: Map Check
+[2018.02.01-16.38.32:393][  0]LightingResults: New page: Lighting Build
+[2018.02.01-16.38.32:754][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.01-16.38.32:754][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2018.02.01-16.38.32:754][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2018.02.01-16.38.32:767][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.01-16.38.32:768][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2018.02.01-16.38.32:768][  0]LoadErrors: Error: /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2018.02.01-16.38.32:773][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.01-16.38.32:774][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.01-16.38.32:774][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.01-16.38.32:774][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.01-16.38.32:783][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.02.01-16.38.32:783][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.02.01-16.38.32:783][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.02.01-16.38.32:783][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.02.01-16.38.32:963][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.02.01-16.38.32:975][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.01-16.38.32:999][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.01-16.38.33:125][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.945ms to complete.
+[2018.02.01-16.38.33:125][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.836
+[2018.02.01-16.38.33:496][  0]LogCollectionManager: Loaded 0 collections in 0.003559 seconds
+[2018.02.01-16.38.33:644][  0]LogFileCache: Scanning file cache for directory 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Saved/Collections/' took 0.01s
+[2018.02.01-16.38.33:644][  0]LogFileCache: Scanning file cache for directory 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/Developers/mingargiola21/Collections/' took 0.01s
+[2018.02.01-16.38.33:644][  0]LogFileCache: Scanning file cache for directory 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/Collections/' took 0.01s
+[2018.02.01-16.38.33:644][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.01-16.38.33:654][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2386 classes and 500 folders.
+[2018.02.01-16.38.33:817][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.01-16.38.33:893][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.01-16.38.34:017][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.01-16.38.34:048][  0]LogSlate: Took 0.000560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.01-16.38.34:053][  0]LogSlate: Took 0.000394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.01-16.38.34:061][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.01-16.38.34:180][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.02.01-16.38.34:568][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.01-16.38.34:568][  0]LogLoad: (Engine Initialization) Total time: 40.52 seconds
+[2018.02.01-16.38.34:568][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.01-16.38.34:568][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.01-16.38.34:568][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.01-16.38.34:582][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.01-16.38.34:603][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.01-16.38.34:666][  0]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.01-16.38.34:687][  1]LogAssetRegistry: Asset discovery search completed in 29.3944 seconds
+[2018.02.01-16.38.34:689][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.01-16.38.34:690][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2018.02.01-16.40.27:343][833]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.01-16.40.27:536][834]Cmd: QUIT_EDITOR
+[2018.02.01-16.40.27:595][834]LogExit: Preparing to exit.
+[2018.02.01-16.40.28:447][834]LogDirectoryWatcher: A directory notification for 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/' was aborted.
+[2018.02.01-16.40.28:474][834]LogExit: Editor shut down
+[2018.02.01-16.40.28:477][834]LogExit: Transaction tracking system shut down
+[2018.02.01-16.40.28:717][834]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.01-16.40.28:717][834]LogDirectoryWatcher: A directory notification for '../../../../../../Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/' was aborted.
+[2018.02.01-16.40.28:717][834]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.01-16.40.28:718][834]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.01-16.40.28:718][834]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.01-16.40.28:770][834]LogExit: Object subsystem successfully closed.
+[2018.02.01-16.40.28:794][834]LogD3D11RHI: Shutdown
+[2018.02.01-16.40.28:794][834]LogD3D11RHI: CleanupD3DDevice
+[2018.02.01-16.40.28:913][834]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.01-16.40.28:943][834]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.02.01-16.40.28:943][834]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.02.01-16.40.28:943][834]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.02.01-16.40.28:943][834]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.02.01-16.40.28:944][834]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.02.01-16.40.28:944][834]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.02.01-16.40.28:944][834]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.02.01-16.40.28:944][834]LogDirectoryWatcher: A directory notification for 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/Collections/' was aborted.
+[2018.02.01-16.40.28:944][834]LogDirectoryWatcher: A directory notification for 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Content/Developers/mingargiola21/Collections/' was aborted.
+[2018.02.01-16.40.28:944][834]LogDirectoryWatcher: A directory notification for 'C:/Columbia/Unreal Fun/repos/netflix-boredom/FPS_NetflixBoredom/Saved/Collections/' was aborted.
+[2018.02.01-16.40.28:944][834]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.02.01-16.40.28:944][834]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.02.01-16.40.28:944][834]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.02.01-16.40.28:945][834]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.02.01-16.40.29:744][834]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.02.01-16.40.29:744][834]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.02.01-16.40.29:744][834]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.02.01-16.40.29:744][834]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.02.01-16.40.29:744][834]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.02.01-16.40.29:744][834]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.02.01-16.40.29:744][834]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.02.01-16.40.29:744][834]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.02.01-16.40.29:744][834]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.02.01-16.40.29:745][834]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.02.01-16.40.29:746][834]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.02.01-16.40.29:746][834]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.02.01-16.40.29:746][834]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.02.01-16.40.29:746][834]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.02.01-16.40.29:811][834]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.02.01-16.40.29:811][834]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.02.01-16.40.29:811][834]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.02.01-16.40.29:811][834]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.02.01-16.40.29:812][834]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.02.01-16.40.29:812][834]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.02.01-16.40.29:812][834]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.02.01-16.40.29:812][834]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.02.01-16.40.29:812][834]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.02.01-16.40.29:812][834]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.02.01-16.40.29:814][834]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.02.01-16.40.29:815][834]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.02.01-16.40.29:816][834]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.02.01-16.40.29:816][834]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.02.01-16.40.29:816][834]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.02.01-16.40.29:816][834]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.02.01-16.40.29:816][834]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.02.01-16.40.29:816][834]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.02.01-16.40.29:816][834]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.02.01-16.40.29:816][834]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.02.01-16.40.29:817][834]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.02.01-16.40.29:817][834]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.02.01-16.40.29:863][834]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.02.01-16.40.29:863][834]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.02.01-16.40.29:864][834]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.02.01-16.40.29:865][834]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.02.01-16.40.29:865][834]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.02.01-16.40.29:865][834]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.02.01-16.40.29:866][834]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.02.01-16.40.29:866][834]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.02.01-16.40.29:866][834]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.02.01-16.40.29:866][834]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.02.01-16.40.29:866][834]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.02.01-16.40.29:866][834]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.02.01-16.40.29:866][834]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.02.01-16.40.29:866][834]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.02.01-16.40.29:967][834]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.02.01-16.40.30:068][834]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.02.01-16.40.30:068][834]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.02.01-16.40.30:068][834]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.02.01-16.40.30:068][834]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.02.01-16.40.30:068][834]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.02.01-16.40.30:068][834]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.02.01-16.40.30:070][834]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.02.01-16.40.30:070][834]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.02.01-16.40.30:070][834]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.02.01-16.40.30:070][834]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.02.01-16.40.30:076][834]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.02.01-16.40.30:076][834]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.02.01-16.40.30:076][834]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.02.01-16.40.30:077][834]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.02.01-16.40.30:078][834]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.02.01-16.40.30:078][834]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.02.01-16.40.30:078][834]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.02.01-16.40.30:078][834]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.02.01-16.40.30:085][834]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.02.01-16.40.30:086][834]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.02.01-16.40.30:086][834]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.02.01-16.40.30:086][834]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.01-16.40.30:128][834]LogDerivedDataCache: Shutdown
+[2018.02.01-16.40.30:128][834]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.01-16.40.30:128][834]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.01-16.40.30:128][834]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.01-16.40.30:128][834]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.01-16.40.30:128][834]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.01-16.40.30:128][834]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.01-16.40.30:128][834]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.01-16.40.30:128][834]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.01-16.40.30:128][834]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.01-16.40.30:129][834]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.01-16.40.30:130][834]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.01-16.40.30:131][834]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.01-16.40.30:131][834]LogOnline: Display: Unloading online subsystem: NULL
+[2018.02.01-16.40.30:132][834]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.01-16.40.30:132][834]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.01-16.40.30:132][834]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.01-16.40.30:132][834]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B14284F9D-4BA9-E26A-FB48-09902196E34D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=84dfc17b4e9f31e909ddc1b318eebdea%7Cc3fdeb3d8bcd4097a4768718e05c9cf8%7C53216c03-6ce2-4aa7-831b-9b13ed8ec1ec&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.01-16.40.30:159][834]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.01-16.40.30:165][834]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.01-16.40.30:165][834]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.01-16.40.30:165][834]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.01-16.40.30:166][834]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.01-16.40.30:166][834]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.01-16.40.30:166][834]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.01-16.40.30:166][834]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.01-16.40.30:168][834]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.01-16.40.30:168][834]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.01-16.40.30:168][834]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.01-16.40.30:168][834]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.01-16.40.30:168][834]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.01-16.40.30:168][834]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.01-16.40.30:169][834]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.01-16.40.30:169][834]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.01-16.40.30:169][834]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.01-16.40.30:169][834]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.01-16.40.30:169][834]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.01-16.40.30:183][834]LogExit: Exiting.
+[2018.02.01-16.40.30:226][834]Log file closed, 02/01/18 10:40:30
